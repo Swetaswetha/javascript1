@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Detail</title>
+</head>
+    <body>
+        <center>
+            <h1>Student Form</h1>
+            <div id="container">
+                <form>
+                    <table border ="2" id="details" style="text-align: center;" >
+                        <tr>
+                            <th>Name</th>
+                            <td><input type="text" id="name" placeholder="Enter your name"></td>
+                        </tr>
+                        <tr>
+                            <th>Age</th>
+                            <td><input type="number" id="age" placeholder="Enter your age"></td>
+                        </tr>
+                        <tr>
+                            <th>Gender</th>
+                            <td><input type="radio" name="gender" id="male">Male
+                                <input type="radio" name="gender" id="female">Female</td>
+                        </tr>
+                        <tr>
+                            <th>Course</th>
+                            <td><select id="course">
+                                    <option value="Course">Select</option>
+                                    <option value="Python">Python Programming</option>
+                                    <option value="Javascript">Javascript</option>
+                                    <option value="Html">HTML</option>
+                                    <option value="CSS">CSS</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <th>Email</th>
+                            <td><input type="text" placeholder="abc123@gmail.com" id="mail" placeholder="Enter your Email"></td>
+                        </tr>
+                        <tr>
+                            <th colspan="2"><button id="save"
+                                    style="background-color:rgb(112, 178, 216);width: 100%; border: none;">Save</button></th>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <form>
+                <table border="2" id="result" style="margin-top: 20px;">
+                    <thead>
+                        <tr>
+                            <th>NAME</th>
+                            <th>AGE</th>
+                            <th>COURSE</th>
+                            <th>GENDER</th>
+                            <th>EMAIL</th>
+                            <th>ACTION</th>
+                        </tr>
+                    </thead>
+                </table>
+            </form>
+        </center>
+        <script src="script.js"></script>
+</body>
+</html>
