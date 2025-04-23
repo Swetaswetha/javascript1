@@ -18,4 +18,4 @@ CSS – Styling and layout
 
 JavaScript – Interactivity and DOM manipulation
 
-# # Website like : [https://swetaswetha.github.io/javascript1/]
+ Website like : [https://swetaswetha.github.io/javascript1/]
